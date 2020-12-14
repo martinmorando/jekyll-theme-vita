@@ -1,0 +1,69 @@
+---
+---
+
+@import _fonts.sass
+@import _icons.sass
+
+*
+    box-sizing: border-box
+    -moz-box-sizing: border-box
+    -webkit-box-sizing: border-box
+
+body
+    margin: 0
+    font-family: 'Montserrat', sans-serif
+    font-size: 15pt
+    background-color: #0B0E13
+    color: #FAFAFA
+
+.body
+    display: flex
+    min-height: 100vh
+    flex-direction: column
+
+a
+    outline: none
+    text-decoration: underline
+    color: #FAFAFA
+    transition: all .2s
+    -o-transition: all .2s
+    -ms-transition: all .2s
+    -moz-transition: all .2s
+    -webkit-transition: all .2s
+
+a:hover
+    color: #FFF !important
+
+.center
+    margin: 0 auto
+    width: 1200px
+    max-width: 87%
+
+#site-title
+    float: left
+    width: 100%
+    font-size: 1.4em
+    text-align: center
+    text-decoration: none
+    color: #FAFAFA
+
+#site-nav
+    display: block
+    width: 100%
+    float: left
+    padding: 20px 35px
+
+#site-nav a
+    float: left
+    margin-top: 2px
+    padding: 5px 20px
+    font-size: 1em
+    text-decoration: none
+
+#site-nav a:last-of-type
+    padding-right: 0
+
+#page-content
+    flex: 1
+    padding-top: 30px
+    margin-top: 50px
