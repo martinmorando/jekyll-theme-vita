@@ -2,3 +2,5 @@ title: Jekyll Theme Vita
 description: Pending description
 url: ''
 language: en
+
+baseurl: '/jekyll-theme-vita'
