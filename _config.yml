@@ -7,6 +7,11 @@ baseurl: '/jekyll-theme-vita'
 
 permalink: ':title/'
 
+collections_dir: collections
+collections:
+  projects:
+    output: true
+
 defaults:
   - scope:
       path: ''
