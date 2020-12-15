@@ -5,6 +5,8 @@ language: en
 
 baseurl: '/jekyll-theme-vita'
 
+permalink: ':title/'
+
 defaults:
   - scope:
       path: ''
