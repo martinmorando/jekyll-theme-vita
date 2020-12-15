@@ -5,6 +5,8 @@ language: en
 
 baseurl: '/jekyll-theme-vita'
 
+nav: right
+
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
 collections_dir: collections

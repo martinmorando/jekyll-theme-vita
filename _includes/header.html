@@ -1,8 +1,10 @@
 <header id="site-header">
 	<nav id="site-nav">
-		{% for item in site.data.nav %}
-			<a href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
-        {% endfor %}
+		<div id="site-nav-{{ site.nav }}">
+			{% for item in site.data.nav %}
+				<a href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
+        	{% endfor %}
+    	</div>
 	</nav>
 	<div id="site-title">{{ site.title }}</div>
 </header>
