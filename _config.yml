@@ -4,3 +4,9 @@ url: ''
 language: en
 
 baseurl: '/jekyll-theme-vita'
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: 'default'
