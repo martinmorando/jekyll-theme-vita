@@ -5,7 +5,7 @@ language: en
 
 baseurl: '/jekyll-theme-vita'
 
-permalink: ':title/'
+permalink: /:categories/:year/:month/:day/:title:output_ext
 
 collections_dir: collections
 collections:
