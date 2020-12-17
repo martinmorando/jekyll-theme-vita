@@ -11,4 +11,8 @@
     
     <meta name="description" content="{{ page.description }}"/>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css">
+
+    {% if layout.css %}
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/{{ layout.css }}.css" />
+    {% endif %}
 </head>
