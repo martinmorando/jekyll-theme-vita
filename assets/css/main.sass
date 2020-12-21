@@ -39,6 +39,24 @@ a:hover
     width: 1200px
     max-width: 87%
 
+#site-nav-trigger
+    display: none
+    float: left
+    margin-top: 31px
+    margin-left: 30px
+    width: auto
+    font-size: 1.4em
+    cursor: pointer
+
+#site-nav-trigger i
+    color: #FAFAFA
+
+#site-nav-trigger i:hover
+    color: #FFF
+
+#site-nav-trigger .icon-cross
+    display: none
+
 #site-title
     float: left
     padding: 30px 50px
@@ -76,3 +94,35 @@ a:hover
     padding: 20px 0
     width: 100%
     font-size: 0.9em
+
+@media screen and (max-width: 1100px)
+    .body
+        font-size: 1.1em
+
+    #site-nav-trigger
+        display: block
+
+    #site-title
+        float: none
+        text-align: center
+
+    #site-nav
+        display: none
+        position: fixed
+        top: 85px
+        left: 0
+        width: 100%
+        height: 100%
+        background-color: #111
+        overflow-x: hidden
+
+    #site-nav a
+        float: left
+        padding: 20px 40px
+        width: 100%
+        color: #FAFAFA
+        border-bottom: 1px solid #7A7A7A
+
+    #site-nav a:hover
+        padding-left: 50px
+        border-bottom: 1px solid #FAFAFA
