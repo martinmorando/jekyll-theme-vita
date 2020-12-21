@@ -1,5 +1,5 @@
 <header id="site-header">
-	<div id="site-title">{{ site.title }}</div>
+	<div id="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></div>
 	<nav id="site-nav">
 		{% for item in site.data.nav %}
 			<a href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
