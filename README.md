@@ -1,8 +1,8 @@
-# Status: experimenting
+# Status: building
 
 # jekyll-theme-vita
 
-Minimal Jekyll theme.
+Minimal Jekyll theme for an elegant personal website.
 
 
 ## Installation
