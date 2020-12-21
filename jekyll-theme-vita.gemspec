@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Martín Morando"]
   spec.email         = ["66503048+martinmorando@users.noreply.github.com"]
 
-  spec.summary       = "Minimal Jekyll theme."
+  spec.summary       = "Minimal Jekyll theme for an elegant personal website."
   spec.homepage      = "https://github.com/martinmorando/jekyll-theme-vita"
   spec.license       = "MIT"
 
