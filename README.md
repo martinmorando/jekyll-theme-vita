@@ -48,3 +48,8 @@ To add a custom directory to your theme-gem, please edit the regexp in `jekyll-t
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
+
+## Attribution
+The following code and resources were used and it would not have been possible to create Jekyll Theme Vita without them.
+
+The icon font was generated with [IcoMoon](https://icomoon.io/), which includes [IcoMoon font](https://icomoon.io/#icons-icomoon) and [FontAwesome](https://github.com/FortAwesome/Font-Awesome#license).
