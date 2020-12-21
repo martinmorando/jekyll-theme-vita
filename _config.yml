@@ -7,10 +7,7 @@ baseurl: '/jekyll-theme-vita'
 
 # Language. Use ISO 639-1. Examples: if english use 'en',
 # if spanish use 'es'
-language: en 
-
-# Navigation position. Options: 'left', 'right'
-nav: right
+language: en
 
 # ----------------------------------------------------------
 
