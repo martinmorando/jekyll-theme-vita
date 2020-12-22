@@ -1,5 +1,20 @@
 <footer id="site-footer">
 	<div class="center">
+		<div id="social-links">
+			{% assign socialnetwork = "" %}
+
+			{% for item in site.data.author.social %}
+			    {% for i in item %}			     
+			        {% case i[0] %}
+			            {% when "wordpress" %}
+			                {% capture socialnetwork %}{{ i[1] }}{% endcapture %}
+			            {% else %}
+			                {% capture socialnetwork %}https://{{ i[0] }}.com/{{ i[1] }}{% endcapture %}
+			        {% endcase %}
+				    <div><a href="{{ socialnetwork }}"><i class="icon-{{ i[0] }}"></i></a></div>			     
+			    {% endfor %}
+			{% endfor %}
+		</div>
 	</div>
 </footer>
 <script src="{{ site.baseurl }}/assets/js/main.js"></script>

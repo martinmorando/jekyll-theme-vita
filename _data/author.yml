@@ -1,5 +1,7 @@
 name: Martín Morando
 location: cyberspace
 email: email@example.com
-github: martinmorando
-twitter: twitter
+social:
+  - github: martinmorando
+  - twitter: twitter
+  - instagram: instagram
