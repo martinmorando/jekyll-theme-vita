@@ -1,7 +1,9 @@
 ---
 title: My first project
-permalink: my-first-project
+permalink: /projects/my-first-project
 ---
+
+## {{ page.title }}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed turpis at tellus aliquet varius tempus vitae elit. Maecenas vulputate sapien nunc, ac euismod nisi vestibulum vel. Praesent gravida pulvinar magna, ac congue quam accumsan commodo. Suspendisse sit amet luctus risus, non lobortis orci. Vivamus non imperdiet nisl. Nam congue pharetra nunc, pulvinar ultricies magna euismod ac. Morbi at pellentesque dolor, eget accumsan ante. Etiam quis elit sodales, fringilla lacus at, bibendum neque. Fusce sit amet orci ac neque mattis porttitor. Fusce consequat eleifend gravida. In elementum erat vitae mauris ultricies, et tempor tortor faucibus. Aenean rhoncus pellentesque risus.
 
