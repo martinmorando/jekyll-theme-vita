@@ -9,5 +9,5 @@ layout: home
 </div>
 
 {% for project in site.projects %}
-	<a href="{{ project.permalink }}">{{ project.title }}</a>
+	<a href="{{ site.baseurl }}{{ project.permalink }}">{{ project.title }}</a>
 {% endfor %}

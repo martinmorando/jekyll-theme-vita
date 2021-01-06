@@ -22,7 +22,7 @@ defaults:
   - scope:
       path: ''
     values:
-      layout: 'default'
+      layout: 'default-center'
 
 sass:
   style: compressed
