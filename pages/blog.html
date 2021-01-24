@@ -3,4 +3,12 @@ title: Blog
 permalink: /blog/
 ---
 
-Blog
+<h1>Blog</h1>
+
+<div>
+	{% for post in site.posts %}
+		<div>
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		</div>
+	{% endfor %}
+</div>
