@@ -11,8 +11,11 @@ css: blog
 			<div>
 				<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 			</div>
-			<div>
+			<div class="excerpt">
 				{{ post.content | strip_html | truncatewords: 25 }}
+			</div>
+			<div class="date">
+				{{ post.date | date_to_string }}
 			</div>
 		</div>
 	{% endfor %}
