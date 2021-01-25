@@ -23,6 +23,10 @@ defaults:
       path: ''
     values:
       layout: 'default-center'
+  - scope:
+      path: 'collections/_posts'
+    values:
+      layout: 'post'
 
 sass:
   style: compressed
