@@ -1,0 +1,19 @@
+---
+layout: default-center
+css: blog
+---
+
+<h1>Blog</h1>
+
+<div id="posts-list">
+	{% for post in site.posts %}
+		<div>
+			<div>
+				<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+			</div>
+			<div>
+				{{ post.content | strip_html | truncatewords: 25 }}
+			</div>
+		</div>
+	{% endfor %}
+</div>
