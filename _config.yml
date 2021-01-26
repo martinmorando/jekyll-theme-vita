@@ -31,6 +31,10 @@ defaults:
       path: 'collections/_posts'
     values:
       layout: 'post'
+  - scope:
+      path: 'collections/_projects'
+    values:
+      layout: 'project'
 
 sass:
   style: compressed
