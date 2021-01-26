@@ -8,7 +8,7 @@ css: blog
 <div id="posts-list">
 	{% for post in site.posts %}
 		<div>
-			<div>
+			<div class="title">
 				<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 			</div>
 			<div class="excerpt">
