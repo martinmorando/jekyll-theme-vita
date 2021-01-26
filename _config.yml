@@ -24,6 +24,10 @@ defaults:
     values:
       layout: 'default-center'
   - scope:
+      path: 'pages'
+    values:
+      layout: 'page'
+  - scope:
       path: 'collections/_posts'
     values:
       layout: 'post'
