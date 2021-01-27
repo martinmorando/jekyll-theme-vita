@@ -2,6 +2,22 @@ name: Martín Morando
 location: cyberspace
 email: email@example.com
 social:
+# socialnetwork: username
+  #- dribbble: dribbble
+  #- facebook: facebook
+  #- flickr: flickr
   - github: martinmorando
-  - twitter: twitter
-  - instagram: instagram
+  #- instagram: instagram
+  #- reddit: reddit
+  #- spotify: spotify
+  #- soundcloud: soundcloud
+  #- twitch: twitch
+  #- twitter: twitter
+  #- vimeo: staff
+# socialnetwork: complete URL
+  - mastodon: https://mastodon.social/@martinmorando
+  #- linkedin: https://linkedin.com/
+  #- stackoverflow: https://stackoverflow.com/users/4/joel-spolsky
+  #- tumblr: https://tumblr.com/
+  #- wordpress: https://wordpress.com/
+  #- youtube: https://www.youtube.com/

@@ -3,14 +3,20 @@
 		{% assign socialnetwork = "" %}
 
 		{% for item in site.data.author.social %}
-		    {% for i in item %}			     
+		    {% for i in item %}
 		        {% case i[0] %}
-		            {% when "wordpress" %}
+		            {% when "flickr" %}
+		                {% capture socialnetwork %}https://www.flickr.com/photos/{{ i[1] }}{% endcapture %}
+		        	{% when "reddit" %}
+		                {% capture socialnetwork %}https://reddit.com/u/{{ i[1] }}{% endcapture %}
+		        	{% when "spotify" %}
+		                {% capture socialnetwork %}https://open.spotify.com/user/{{ i[1] }}{% endcapture %}
+		            {% when "mastodon", "linkedin", "stackoverflow", "tumblr", "wordpress", "youtube" %}
 		                {% capture socialnetwork %}{{ i[1] }}{% endcapture %}
 		            {% else %}
 		                {% capture socialnetwork %}https://{{ i[0] }}.com/{{ i[1] }}{% endcapture %}
 		        {% endcase %}
-			    <div><a href="{{ socialnetwork }}"><i class="icon-{{ i[0] }}"></i></a></div>			     
+			    <div><a href="{{ socialnetwork }}"><i class="icon-{{ i[0] }}"></i></a></div> 
 		    {% endfor %}
 		{% endfor %}
 	</div>
