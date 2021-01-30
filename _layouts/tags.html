@@ -1,7 +1,12 @@
 ---
 layout: page
+css: tags
 ---
 
-{% for tag in site.tags %}
-    <h2>{{ tag[0] }}</h2>
-{% endfor %}
+<div class="tags">
+
+	{% for tag in site.tags %}
+	    <a href="{{ site.baseurl }}/tags/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+	{% endfor %}
+
+</div>
