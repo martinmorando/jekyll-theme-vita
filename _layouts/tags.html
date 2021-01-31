@@ -6,7 +6,7 @@ css: tags
 <div class="tags">
 
 	{% for tag in site.tags %}
-	    <a href="{{ site.baseurl }}/tags/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+	    <a href="{{ site.baseurl }}/tags/{{ tag[0] | slugify }}/">{{ tag[0] }}</a>
 	{% endfor %}
 
 </div>
