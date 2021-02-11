@@ -1,4 +1,4 @@
-name: Testing the GitHub Pages publication
+name: GitHub Pages Publication
 
 on:
   push
@@ -6,16 +6,20 @@ on:
 jobs:
   jekyll:
     runs-on: ubuntu-latest
+
+    # Checkout
     steps:
     - uses: actions/checkout@v2
 
-    # Use GitHub Actions' cache to shorten build times and decrease load on servers
+    # GitHub Actions' cache to shorten build times and decrease load on servers
     - uses: actions/cache@v2
       with:
         path: vendor/bundle
         key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
         restore-keys: |
           ${{ runner.os }}-gems-
+
+    # Jekyll Action
     - uses: helaili/jekyll-action@v2
       with:
         token: ${{ secrets.TOKEN }}
