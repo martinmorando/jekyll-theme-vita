@@ -11,7 +11,7 @@ language: en
 
 # ----------------------------------------------------------
 
-permalink: /:categories/:year/:month/:day/:title:output_ext
+permalink: /:year/:month/:day/:title:output_ext
 
 collections_dir: collections
 collections:
