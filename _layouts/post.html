@@ -21,14 +21,14 @@ css: post
 	</div>
 
 	<div class="post-categories">
-		Categories:
+		<div class="icon-container"><i class="icon-folder-open"></i></div>
 		{% for category in page.categories %}
 		    <a href="{{ site.baseurl }}/blog/categories/{{ category | slugify }}/">{{ category }}</a>
 		{% endfor %}
 	</div>
 
 	<div class="post-tags">
-		Tags:
+		<div class="icon-container"><i class="icon-price-tags"></i></div>
 		{% for tag in page.tags %}
 		    <a href="{{ site.baseurl }}/blog/tags/{{ tag | slugify }}/">{{ tag }}</a>
 		{% endfor %}
