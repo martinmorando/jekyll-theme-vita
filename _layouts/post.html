@@ -23,14 +23,14 @@ css: post
 	<div class="post-categories">
 		Categories:
 		{% for category in page.categories %}
-		    <a href="{{ site.baseurl }}/categories/{{ category | slugify }}/">{{ category }}</a>
+		    <a href="{{ site.baseurl }}/blog/categories/{{ category | slugify }}/">{{ category }}</a>
 		{% endfor %}
 	</div>
 
 	<div class="post-tags">
 		Tags:
 		{% for tag in page.tags %}
-		    <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/">{{ tag }}</a>
+		    <a href="{{ site.baseurl }}/blog/tags/{{ tag | slugify }}/">{{ tag }}</a>
 		{% endfor %}
 	</div>
 </div>
