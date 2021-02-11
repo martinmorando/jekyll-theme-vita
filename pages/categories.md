@@ -1,5 +1,5 @@
 ---
 title: Categories
 layout: categories
-permalink: /categories/
+permalink: /blog/categories/
 ---

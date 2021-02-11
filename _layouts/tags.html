@@ -1,12 +1,20 @@
 ---
-layout: page
-css: tags
+layout: default-center
 ---
 
-<div class="tags">
+<div class="breadcrumb">
+	<ul>
+		<li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
+		<li>{{ page.title }}</li>
+	</ul>
+</div>
 
+<div class="list">
 	{% for tag in site.tags %}
-	    <a href="{{ site.baseurl }}/tags/{{ tag[0] | slugify }}/">{{ tag[0] }}</a>
-	{% endfor %}
 
+		<a class="item" href="{{ site.baseurl }}/blog/tags/{{ tag[0] | slugify }}/">
+			<span>{{ tag[0] }}</span>
+		</a>
+
+	{% endfor %}
 </div>
