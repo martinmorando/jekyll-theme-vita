@@ -10,6 +10,10 @@ TODO: Write installation instructions here.
 
 TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
 
+## Improvement requests
+
+Jekyll Theme Vita is in continuous improvement. [Open an issue](https://github.com/martinmorando/jekyll-theme-vita/issues/new) and label it "enhancement" to request any feature; if it's useful, I will do my best to add it.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/martinmorando/jekyll-theme-vita. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
