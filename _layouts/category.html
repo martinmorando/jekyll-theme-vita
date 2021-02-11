@@ -8,3 +8,15 @@ layout: default-center
 		<li>{{ page.title }}</li>
 	</ul>
 </div>
+
+<div class="list">
+	{% for post in page.posts %}
+
+		<a class="item" href="{{ post.url | relative_url }}">
+			<span class="item-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+			<span class="item-separator">|</span>
+			<span>{{ post.title }}</span>
+		</a>
+
+	{% endfor %}
+</div>
