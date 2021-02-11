@@ -3,6 +3,12 @@ layout: page
 css: blog
 ---
 
+<div id="posts-meta">
+	<a href="{{ site.baseurl }}/blog/">Posts</a>
+	<a href="{{ site.baseurl }}/blog/categories/">Categories</a>
+	<a href="{{ site.baseurl }}/blog/tags/">Tags</a>
+</div>
+
 <div id="posts-list">
 	{% for post in paginator.posts %}
 		<div>
@@ -18,12 +24,6 @@ css: blog
 		</div>
 	{% endfor %}
 </div>
-
-<div id="posts-meta">
-	<a href="{{ site.baseurl }}/blog/categories/">Categories</a>
-	<a href="{{ site.baseurl }}/blog/tags/">Tags</a>
-</div>
-
 
 {% if paginator.total_pages > 1 %}
 <div id="posts-pagination">
