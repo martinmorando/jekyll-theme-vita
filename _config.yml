@@ -42,6 +42,7 @@ sass:
 plugins:
   - jekyll-sitemap
   - jekyll-archives
+  - jekyll-paginate-v2
 
 jekyll-archives:
   enabled:
@@ -53,3 +54,12 @@ jekyll-archives:
   permalinks:
     category: /blog/categories/:name/
     tag: /blog/tags/:name/
+
+pagination:
+  enabled: true
+  collection: 'posts'
+  per_page: 1
+  permalink: '/page/:num/'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
