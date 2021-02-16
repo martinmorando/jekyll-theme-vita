@@ -1,0 +1,1 @@
+Sitemap: https://martinmorando.github.io/jekyll-theme-vita/sitemap.xml
