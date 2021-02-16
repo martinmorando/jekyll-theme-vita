@@ -68,7 +68,7 @@ pagination:
 
 compress_html:
   clippings: all
-  comments: all
+  comments: false
   endings: all
   blanklines: false
   profile: false 
