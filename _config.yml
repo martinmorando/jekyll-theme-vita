@@ -16,7 +16,7 @@ permalink: /:year/:month/:day/:title:output_ext
 collections_dir: collections
 collections:
   projects:
-    output: true
+      output: true
 
 defaults:
   - scope:

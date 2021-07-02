@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+<div id="projects-list">
+	{% for project in site.projects %}
+		<div>
+			<div class="title">
+				<h2><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h2>
+			</div>
+			<div class="excerpt">
+				{{ project.content | strip_html | truncatewords: 25 }}
+			</div>
+		</div>
+	{% endfor %}
+</div>
